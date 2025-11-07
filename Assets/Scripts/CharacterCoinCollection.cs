@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CharacterCoinCollection : MonoBehaviour
 {
@@ -44,6 +45,7 @@ public class CharacterCoinCollection : MonoBehaviour
         if (_coinCollection >= _maxCoin)
         {
             Debug.Log("WIN");
+            SceneManager.LoadScene("EndScene");
         }
     }
 }
