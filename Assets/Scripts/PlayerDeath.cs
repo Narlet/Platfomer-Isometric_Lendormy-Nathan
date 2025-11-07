@@ -8,7 +8,10 @@ public class PlayerDeath : MonoBehaviour
     {
         if (other.transform.tag == "DeathZone")
         {
+            GetComponent<CharacterController>().enabled = false;
             Debug.Log("Death");
+            transform.position = _spanwPoint.position;
+            GetComponent<CharacterController>().enabled = true;
         }
     }
 }

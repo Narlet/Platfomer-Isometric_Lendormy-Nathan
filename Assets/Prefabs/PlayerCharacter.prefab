@@ -327,6 +327,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerDeath
   _spanwPoint: {fileID: 0}
+  _controllerMouvements: {fileID: 8376819143278202686}
 --- !u!114 &2260809857934951943
 MonoBehaviour:
   m_ObjectHideFlags: 0
