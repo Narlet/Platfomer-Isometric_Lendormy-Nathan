@@ -37,7 +37,7 @@ public class CharacterCoinCollection : MonoBehaviour
 
     private void DisplayCoinCollec()
     {
-        _coinText.text = "Coins : " + _coinCollection.ToString() + "/" + _maxCoin.ToString();
+        _coinText.text = "Collect all coins : " + _coinCollection.ToString() + "/" + _maxCoin.ToString();
     }
 
     private void WinGame()
